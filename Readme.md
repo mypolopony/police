@@ -4,6 +4,8 @@ Tens of thousands of local governments produce text that decrees how they functi
 	1) Coronavirus-19 response and 
 	2) Police conduct.
 
+# Table-ish of Contents
+
 - [Counties](#counties)
 - [Cities](#cities)
 - [Targets](#targets)

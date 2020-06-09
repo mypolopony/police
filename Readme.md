@@ -96,7 +96,7 @@ And the link:
 
 yields 
 
-```'/url?q=https://www.fcgov.com/police/pdf/policy_manual.pdf&sa=U&ved=2ahUKEwjx15qZ1OvpAhWCjp4KHTt1AAgQFjAAegQIABAB&usg=AOvVaw0f-ToEX8HZ3jO7SQhqCBdS'`.```
+```'/url?q=https://www.fcgov.com/police/pdf/policy_manual.pdf&sa=U&ved=2ahUKEwjx15qZ1OvpAhWCjp4KHTt1AAgQFjAAegQIABAB&usg=AOvVaw0f-ToEX8HZ3jO7SQhqCBdS'```
 
 First of all, I've always found BeautifulSoup to be pretty poorly implemented; for example, `target_div.href` which should *not* work actually just returns `None` - you access attributes via `.attrs` which seems kind of lazy to me, but whatever.
 

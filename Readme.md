@@ -1,12 +1,12 @@
 ## Policy Analysis
 
-#### Counties
+## Counties
 
 COVID-19 County Variance Attestation Form: https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/COVID-19/County_Variance_Attestation_Form.aspx]
 
 The fill-ins are manual and hilarious. Collect them and displaty by county. Just make the download list manually.
 
-#### Cities
+## Cities
 
 The list of cities comes from https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population
 
@@ -20,7 +20,7 @@ However, if you specify to sort by 2019 Estimate, it actually does separate them
 
 This complicated immediate reformatting but no worries. Saved to _cities.tsv_ (preferred as a delimiter over CSV because of the rampant use of commas)
 
-#### Targets
+## Targets
 
 Starting with Cleveland, the terminology seems to be 
 	- Manual
@@ -39,7 +39,7 @@ Correct on the first hit. But we should probably add 'police' -- let's try with 
 Yields https://www.fcgov.com/police/pdf/policy_manual.pdf as the first link. Yes, seems to be essentially the correct document. The assumption is that any large police force will have, as the first hit, this sort of document.
 
 
-#### Content
+## Content
 
 What is actually in these documents? The hypothesis is that there's going to be a lot of overlap. Actually, that would be ideal. The question we're facing currently is as to the prescribed procedures across various police forces in different cities, different populations, etc. In fact, one hallmark of this kind of analysis is to understand what language is used and how that language differs. 
 
@@ -47,7 +47,7 @@ In the context of understanding police activity, it is no great leap of imaginat
 
 I start by taking any police officer as simply a manifestation of what any representative of any organization should be doing, which is simply enacting the code under which you are sworn into duty. I just the codes might be silly enough to be interesting, but we'll find out.
 
-#### Acquisition
+## Acquisition
 
 This is a classic scraping situation, but I really hate that word. It implies undirected search, which is, unfortunately, at times, useful. 
 
@@ -91,7 +91,7 @@ Gives us, finally, https://www.fcgov.com/police/pdf/policy_manual.pdf. Yes, I re
 
 Now this record is either something correct or something incorrect. Once we download all of them, we can probably pick out the outliers, but let's try our best to get as many as we can for now.
 
-#### Conversion
+## Conversion
 
 Classically, `pdftotext` -- great command line tool but also has a python wrapper. And the reason I hate developing on a Mac:
 
@@ -149,12 +149,12 @@ import pdftotxt
 
 ```
 
-#### Interpretation
+## Interpretation
 
 A lot of the conversation on grabbing data from PDFs is focused on extracting information from tables, usually with `tabula-py`, because it is an important problem and a great source of 'trapped' data. That's beyond the scope here because we generally benefit from expecting these documents to be, basically, just text. 
 
 
-#### Surveying
+## Surveying
 
 We can check out a few of these documents by hand, but with 300+, we need to get a survey of what we've got. Some of the downloads will fail. That's fine. Some of them will download. . . something. . . that may or may not be what we're looking for. Hopefully, a significant number will be documents in the target group -- essentially, codes for police activity. 
 
@@ -163,7 +163,7 @@ The misses are missed gracefully. Presumably there are some hits that. . . aren'
 - Number of success and failures (and why)
 - Length
 
-#### Analysis
+## Analysis
 
 This is in part in aid of the above, Surveying. There have got to be some pretty common words. Good targets should share a large number of these phrases, and the *most interesting* ones will be those that share those phrases but have unique phrases within them.
 

@@ -17,7 +17,7 @@ Tens of thousands of local governments produce text that decrees how they functi
 
 ## Counties
 
-COVID-19 County Variance Attestation Form: https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/COVID-19/County_Variance_Attestation_Form.aspx]
+COVID-19 County Variance Attestation Form: https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/COVID-19/County_Variance_Attestation_Form.aspx
 
 The fill-ins are manual and hilarious. Collect them and displaty by county. Just make the download list manually.
 

@@ -93,7 +93,7 @@ Now this record is either something correct or something incorrect. Once we down
 
 #### Conversion
 
-Classically, pdftotext -- great command line tool but also has a python wrapper. And the reason I hate developing on a Mac:
+Classically, `pdftotext` -- great command line tool but also has a python wrapper. And the reason I hate developing on a Mac:
 
 ```zsh
 ➜  ~ uname -a

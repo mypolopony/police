@@ -64,9 +64,9 @@ ua = UserAgent()
 number_result = 1
 query = 'police manual rules conduct discipline Fort Collins Colorado filetype:pdf'
 
-google_url = "https://www.google.com/search?q=" + query + "&num=" + str(number_result)
-response = requests.get(google_url, {"User-Agent": ua.random})
-soup = BeautifulSoup(response.text, "html.parser")
+google_url = 'https://www.google.com/search?q=' + query + '&num=' + str(number_result)
+response = requests.get(google_url, {'User-Agent': ua.random})
+soup = BeautifulSoup(response.text, 'html.parser')
 ```
 
 You just need this div:

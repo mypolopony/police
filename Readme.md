@@ -2,10 +2,9 @@
 
 #### Counties
 
-(COVID-19 County Variance Attestation Form) [https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/COVID-19/County_Variance_Attestation_Form.aspx] 
+COVID-19 County Variance Attestation Form: https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/COVID-19/County_Variance_Attestation_Form.aspx]
 
 The fill-ins are manual and hilarious. Collect them and displaty by county. Just make the download list manually.
-
 
 #### Cities
 
@@ -37,7 +36,7 @@ Correct on the first hit. But we should probably add 'police' -- let's try with 
 
 `police manual rules conduct discipline Fort Collins Colorado filetype:pdf`
 
-Yields [https://www.fcgov.com/police/pdf/policy_manual.pdf] as the first link. Yes, seems to be essentially the correct document. The assumption is that any large police force will have, as the first hit, this sort of document.
+Yields https://www.fcgov.com/police/pdf/policy_manual.pdf as the first link. Yes, seems to be essentially the correct document. The assumption is that any large police force will have, as the first hit, this sort of document.
 
 
 #### Content
@@ -86,7 +85,7 @@ Secondly, ugh, now we have to format this stupid thing becauase Google wants to 
 
 `target_link = re.search(r'q=([^\&]+)',target_link).groups()[0]`
 
-Gives us, finally, [https://www.fcgov.com/police/pdf/policy_manual.pdf]. Yes, I reuse variables (across type), get over it.
+Gives us, finally, https://www.fcgov.com/police/pdf/policy_manual.pdf. Yes, I reuse variables (across type), get over it.
 
 `record = ` 
 
@@ -110,7 +109,7 @@ Copyright 1996-2011 Glyph & Cog, LLC
 Usage: pdftotext [options] <PDF-file> [<text-file>]
 ```
 
-And yet, pip fails due to missing dependancy, Poppler [https://poppler.freedesktop.org/].
+And yet, pip fails due to missing dependancy, Poppler (https://poppler.freedesktop.org/).
 
 ```zsh
 brew install poppler

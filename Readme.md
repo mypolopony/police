@@ -1,6 +1,6 @@
 # Policy Analysis
 
-Tens of thousands of local governments produce text that decrees how they function. How are these documents structured, how are the similar, and how do they differ? The particular focus here, purely because of their current public and political enthusiasm, are the cases of 
+Tens of thousands of local governments produce text that decree how they function. How are these documents structured, how are the similar, and how do they differ? The particular focus here, purely because of current public and political enthusiasm, are the cases of:
 	1) Coronavirus-19 response and 
 	2) Police conduct.
 

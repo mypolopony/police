@@ -4,15 +4,15 @@ Tens of thousands of local governments produce text that decrees how they functi
 	1) Coronavirus-19 response and 
 	2) Police conduct.
 
-* [Counties](#counties)
-* [Cities](#cities)
-* [Targets](#Targets)
-* [Content](#content)
-* [Acquisition](#acquisition)
-* [Conversion](#conversion)
-* [Interpretation](#interpretation)
-* [Surveying](#surveying)
-* [Analysis](#analysis)
+- [Counties](#counties)
+- [Cities](#cities)
+- [Targets](#targets)
+- [Content](#content)
+- [Acquisition](#acquisition)
+- [Conversion](#conversion)
+- [Interpretation](#interpretation)
+- [Surveying](#surveying)
+- [Analysis](#analysis)
 
 
 ## Counties

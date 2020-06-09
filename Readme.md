@@ -79,7 +79,7 @@ And the link:
 
 yields `'/url?q=https://www.fcgov.com/police/pdf/policy_manual.pdf&sa=U&ved=2ahUKEwjx15qZ1OvpAhWCjp4KHTt1AAgQFjAAegQIABAB&usg=AOvVaw0f-ToEX8HZ3jO7SQhqCBdS'`. 
 
-First of all, I've always found BeautifulSoup to be pretty poorly implemented; for example, target_div.href which should *not* work actually just returns `None` - you access attributes via `.attrs` which seems kind of lazy to me, but whatever.
+First of all, I've always found BeautifulSoup to be pretty poorly implemented; for example, `target_div.href` which should *not* work actually just returns `None` - you access attributes via `.attrs` which seems kind of lazy to me, but whatever.
 
 Secondly, ugh, now we have to format this stupid thing becauase Google wants to track our every move. The regex should be simple. This absurd construction is one of my favorites, and I've spent many minutes trying in vain to come up with one not so ridiculous, but:
 
